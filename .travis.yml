@@ -1,5 +1,8 @@
-dist: trusty
+dist: xenial
 os: linux
+language: ruby
+rvm:
+ - 2.3.3
 cache: bundler
 sudo: true
 service:
